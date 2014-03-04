@@ -23,7 +23,8 @@
         _results = [];
         for (_i = 0, _len = _ref.length; _i < _len; _i++) {
           movie = _ref[_i];
-          li = $("<li>" + movie.Title + "</li>");
+          li = ($($("<li>" + movie.Title + "</li>"))).addClass("motionPicture");
+          console.log(li);
           _results.push($(".result").append(li));
         }
         return _results;

@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Movies App</title>
+      <link href="css/bootstrap.min.css" rel="stylesheet">
       <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
       <script src="app.js"></script>
       <style>
@@ -17,9 +18,16 @@
   <body>
     <form>
       <input type="text" name="somefield">
-      <button>Search</button>
+      <button class="btn btn-success">Search</button>
     </form>
     <h1>Results</h1>
-    <section class="result"></section>
+      <section class="result"></section>
+        <section class="about-movie">
+        <h2>Plot</h2>
+          <section class="plot"></section>
+        <h2>Image</h2>
+      <section class="image"></section>
+    </section>
+  <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
